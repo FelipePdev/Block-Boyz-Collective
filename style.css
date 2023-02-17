@@ -258,19 +258,35 @@ a{
     margin-bottom: 2%;
     margin-left: 59%;
 }
+.gui{
+    position: relative;
+    bottom: 5em;
+    left: 98%;
+}
+.desc-gui{
+    display:flex;
+    justify-content: center;
+    text-align: start;
+    font-size: 30px;
+    font-family: roboto mono;
+    position: relative;
+    right: 27%;
+    top: 2em;
+
+}
 
 .box-form{
     width: 400px;
     background: #f5f5f5;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 2);
-    border-radius: 5px;
+    border-radius: 20px;
     padding: 15px;
     display: grid;
     flex-direction: column;
     margin-left: 50%;
     box-sizing: border-box;
 }
-.box-form .rg,  .nome , .cpf , .endereco, .numero, .sexo, .data, .email, .data , .email , .telefone, .senha{
+.box-form .CEP,  .nome , .cpf , .endereco, .numero, .sexo, .data, .email, .data , .email , .telefone, .senha{
     font-size: 16px;
     padding: 5px;
     font-family: Roboto mono;
@@ -308,10 +324,12 @@ a{
     font-family: Roboto mono;
     font-weight: bold;
     margin-left: 18%;
+    text-shadow: 0 0 10px #000000;
 }
 .cadastrado-link{
     padding-left: 15px;
     color: green;
+    text-shadow: 0 0 10px green;
 
 }
 .tela-registro{
@@ -319,9 +337,18 @@ a{
     top: 28vh;
     left: 5em;
 }
+.quem-somos{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
  
 
-        /* Responsivo */
+        /* Responsivo
 
 @media (max-width: 820px){
     .menu-btn{
@@ -345,3 +372,4 @@ a{
     }
 
 }
+3
