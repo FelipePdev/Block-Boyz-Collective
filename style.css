@@ -252,6 +252,74 @@ a{
     bottom:20px;
     right: 60px;
 }
+.cadastro{
+    display: flex;
+    margin-top:2%;
+    margin-bottom: 2%;
+    margin-left: 59%;
+}
+
+.box-form{
+    width: 400px;
+    background: #f5f5f5;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 2);
+    border-radius: 5px;
+    padding: 15px;
+    display: grid;
+    flex-direction: column;
+    margin-left: 50%;
+    box-sizing: border-box;
+}
+.box-form .rg,  .nome , .cpf , .endereco, .numero, .sexo, .data, .email, .data , .email , .telefone, .senha{
+    font-size: 16px;
+    padding: 5px;
+    font-family: Roboto mono;
+    font-weight: bold;
+}
+#sexo , #data-nascimento{
+    padding: 2px;
+}
+
+.submit{
+    padding: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.submit:hover{
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: poppins;
+
+}
+.cadastrado{
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+    font-size: 20px;
+    color: #000000;
+    font-family: Roboto mono;
+    font-weight: bold;
+    margin-left: 18%;
+}
+.cadastrado-link{
+    padding-left: 15px;
+    color: green;
+
+}
+.tela-registro{
+    position: absolute;
+    top: 28vh;
+    left: 5em;
+}
+ 
 
         /* Responsivo */
 
